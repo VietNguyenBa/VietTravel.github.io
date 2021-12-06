@@ -1,0 +1,38 @@
+:root{
+    --main-color: #1bbc9b;
+    --sup-color: #434a54;
+    --text-color:rgb(94, 93, 93);
+    --btn-background-hover: #22ceab;
+}
+*{
+    box-sizing: inherit;
+}
+html{
+    font-size: 70%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+.grid {
+    width: 1200px;
+    max-width: 100% ;
+    margin:0 auto;
+}
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.grid__column-4{
+    width: 33.3333%;
+    padding: 15px;
+}
+.grid__column-3{
+    width: 25%;
+    padding: 15px;
+    z-index: 1;
+}
+.grid__column-9{
+    width: 75%;
+    padding: 15px;
+}

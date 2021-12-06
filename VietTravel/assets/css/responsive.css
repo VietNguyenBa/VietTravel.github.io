@@ -1,0 +1,183 @@
+/* Tablet and mobile */
+@media (max-width:1024px){
+    .hide-on-tablet-n-mobile{
+        display: none;
+    }
+    .header .container__header-main .grid{
+        height: 100%;
+    }
+    .container__header-main{
+        height: 116%;
+        border-bottom: none;
+    }
+    .header-main{
+        align-items: center;
+        justify-content: center;
+        border: none;
+        height: 100%;
+    }
+    .header::after {
+        top:0;
+        left: 0;
+        right: 0;
+    }
+    .slider-form__main-form{
+        flex-direction: column;
+        width: 90%;
+        height: 260px;
+        margin: auto;
+        bottom: -40px;
+        position: relative;
+        bottom: -450px;
+    }
+    .slider-form__choose-form{
+        margin-left: 5%;
+        position: relative;
+        bottom: -450px;
+    }
+    .main-form__key-word-form{
+        padding: 10px 20px;
+        width: 95%;
+        margin: 10px auto;
+    }
+    .main-form__all-destinations{
+        padding: 10px 20px;
+        width: 95%;
+        margin: 10px auto;
+    }
+    .main-form__all-typologies{
+        padding: 10px 20px;
+        width: 95%;
+        margin: 10px auto;
+    }
+    .main-form__search-btn{
+        padding: 10px 20px;
+        width: 95%;
+        margin: 10px auto;
+    }
+    .content-top-promotion{
+        padding-top: 200px;
+    }
+    .grid__row {
+        display: block;
+    }
+    .grid__column-4 {
+        width: 100%;
+    }
+    .travel-location {
+        width: 100%;
+    }
+    .content-top-promotion__footer{
+        display: block;
+    }
+    .content-top-promotion__footer__btn{
+        display: block;
+        text-align: center;
+        line-height: 48px;
+        margin: auto;
+
+    }
+    .content-top-promotion__footer__all-packages-btn{
+        margin-bottom: 25px;
+    }
+    .grid__column-3{
+        width: 100%;
+        z-index: 1;
+    }
+    .content-our-destination__location-container{
+        width: 100%;
+    }
+    .content-our-destination__footer__container{
+        padding: 1px 0 ;
+        z-index: 0;
+
+    }
+    .content-our-destination__footer__valuable{
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+    .content-our-destination__footer__elememts{
+        font-size: 1rem;
+    }
+    .grid{
+        z-index: 2;
+    }
+    .content-packages__form-sign__form-main-container{
+        margin: auto;
+    }
+
+    .grid__column-9{
+        width: 100%;
+    }
+    .content-packages__location__container {
+        display: block;
+    }
+    .content-packages__location-img{
+        width: 100%;
+    }
+    .content-packages__location-main-content{
+        top:-10px;
+        width: 100%;
+        height: fit-content;
+        border: 0.5px solid rgba(219, 219, 219, 0.541);
+        border-top: none;
+    }
+    .content-packages__location-main-content__header{
+        background-color: transparent;
+        border: none;
+    }
+    .content-packages__location-main-content__des{
+        display:block;
+        border-bottom: none;
+        
+    }
+    .content-packages__location__container {
+        width: 100%;
+       
+    }
+    .content-packages__location__price-tour-container{
+        display: none;
+    }
+    .content-packages__location__price-tour-display-on-mobile-tablet{
+        display: block;
+        text-decoration: none;
+        padding: 10px 20px;
+        background-color: #f3a46b;
+        width: fit-content;
+        font-size: 1.4rem;
+        color: white;
+        margin-left: 16px;
+        margin-bottom: 8px;
+        margin-top: 8px;
+        
+    }
+    .content-packages__form-sign__choose--request{
+        width: 50%;
+    }
+    .content-packages__form-sign__choose--contact{
+        width: 50%;
+    }
+    .footer{
+        height: 100%;
+    }
+    .footer .grid__column-4{
+        padding: 32px 0;
+    }
+    .footer .grid__row{
+        margin: 0 25px;
+    }
+/* Tablet */
+@media (max-width: 768px){
+    .hide-on-tablet{
+        display: none;
+    }
+}
+
+
+
+
+/* Mobile */
+@media (max-width: 320px){
+    .hide-on-mobile{
+        display: none;
+    }
